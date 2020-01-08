@@ -23,7 +23,7 @@ tsi_t::~tsi_t(void)
 {
 }
 
-#define MSIP_BASE 0x2000000
+#define MSIP_BASE 0x10000000
 
 // Interrupt core 0 to make it start executing the program in DRAM
 void tsi_t::reset()
